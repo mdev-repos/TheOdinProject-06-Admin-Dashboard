@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - The Odin Project - Intermediate HTML and CSS Course</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=asap:200,400,600" rel="stylesheet" />
+</head>
+<body>
+    <div class="grid-container">
+        <aside class="sidebar">
+            <div class="sidebar-title">
+                <i class="fa-solid fa-table-columns"></i>
+                <h1>Dashboard</h1>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item"><i class="fa-solid fa-house"></i>Home</a>
+                <a href="#" class="nav-item"><i class="fa-solid fa-address-card"></i>Profile</a>
+                <a href="#" class="nav-item"><i class="fa-solid fa-message"></i>Messages</a>
+                <a href="#" class="nav-item"><i class="fa-solid fa-clock-rotate-left"></i>History</a>
+                <a href="#" class="nav-item"><i class="fa-solid fa-list-check"></i>Tasks</a>
+                <a href="#" class="nav-item"><i class="fa-solid fa-group-arrows-rotate"></i>Communities</a>
+                <a href="#" class="nav-item"><i class="fa-solid fa-gear"></i>Settings</a>
+                <a href="#" class="nav-item"><i class="fa-regular fa-circle-question"></i>Support</a>
+                <a href="#" class="nav-item"><i class="fa-solid fa-shield-halved"></i>Privacy</a>
+            </nav>
+            <footer class="sidebar-footer">
+                <p>Cat-Logo photo by <a href="https://pixabay.com/users/seidenperle-41220675/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8575768">Seidenperle</a> on <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8575768">Pixabay</a></p>
+            </footer> 
+        </aside>
+
+        <div class="dashboard-container">
+            <div class="db-nav-section">
+                <div class="db-nav-search">
+                    <div class="searchbar-container">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" name="search-bar" id="search-bar">
+                    </div>
+                    <div class="alert-container">
+                        <i class="fa-solid fa-bell"></i>
+                        <img class="cat-logo" src="./assets/cat-8575768_640.png" alt="logo-cat">
+                        <h4>Morgan Oakley</h4>
+                    </div>
+                </div>
+                <div class="db-nav-links">
+                    <div class="nav-links-user">
+                        <img class="nav-links-logo" src="./assets/cat-8575768_640.png" alt="logo-cat">
+                        <div class="nav-links-name">
+                            <p>Hi there,</p>
+                            <h3>Morgan Oakley (@morgan)</h3>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="db-content-section">
+                <div class="projects-section">
+                    <p class="section-title">Your Projects</p>
+                    <div class="projects-container">
+
+                        <div class="project-card">
+                            <div class="project-bar"></div>
+                            <div class="project-content">
+                                <div class="main-data">
+                                    <p class="project-title">Super Cool Project</p>
+                                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint et consequatur perspiciatis laboriosam beatae!</p>
+                                </div>
+                                <div class="project-icons">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-bar"></div>
+                            <div class="project-content">
+                                <div class="main-data">
+                                    <p class="project-title">Less Cool Project</p>
+                                    <p class="project-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis inventore, quidem tenetur nemo optio impedit laboriosam aut tempora repellat eligendi animi ut laudantium tempore dolorum sed maiores labore omnis facilis.</p>
+                                </div>
+                                <div class="project-icons">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-bar"></div>
+                            <div class="project-content">
+                                <div class="main-data">
+                                    <p class="project-title">Impossible App</p>
+                                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus, nemo perferendis quos repellendus minima harum laboriosam eligendi soluta architecto minus nesciunt tenetur. Reprehenderit, dolores. Sed dolore non cupiditate laudantium.</p>
+                                </div>
+                                <div class="project-icons">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>                                
+                            </div>
+                        </div>
+                                
+                        <div class="project-card">
+                            <div class="project-bar"></div>
+                            <div class="project-content">
+                                <div class="main-data">
+                                    <p class="project-title">Easy Peasy App</p>
+                                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero blanditiis, tempore nobis nulla unde culpa odit natus dolorum similique voluptatem accusantium tempora eveniet nesciunt a voluptates perspiciatis quae doloribus sunt!</p>
+                                </div>
+                                <div class="project-icons">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-bar"></div>
+                            <div class="project-content">
+                                <div class="main-data">
+                                    <p class="project-title">Ad Blocker</p>
+                                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem omnis porro dicta deleniti! Sequi nemo quasi error, quibusdam ex, eveniet quam, voluptatibus at sapiente blanditiis reprehenderit repudiandae laborum illum unde.</p>
+                                </div>
+                                <div class="project-icons">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>                                
+                            </div>
+                        </div>
+
+
+                        <div class="project-card">
+                            <div class="project-bar"></div>
+                            <div class="project-content">
+                                <div class="main-data">
+                                    <p class="project-title">Money Maker</p>
+                                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, enim ipsum dolorem corrupti quod repudiandae, cum sapiente sit distinctio nihil sint assumenda deleniti molestias. Ad nostrum totam quos qui incidunt?</p>
+                                </div>
+                                <div class="project-icons">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>                                
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="aside-section">
+                    <div class="announcement-section">
+                        <p class="section-title">Announcements</p>
+                        <div class="aside-cards">
+                            <div class="announcement-card">
+                                <p class="announcement-title">Site Maintenance</p>
+                                <p class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias magnam maiores deleniti voluptates nulla saepe molestias veritatis.</p>
+                            </div>
+                            <hr>
+                            <div class="announcement-card">
+                                <p class="announcement-title">Community Share Day</p>
+                                <p class="announcement-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, dolor in placeat repellendus quasi quis, explicabo, recusandae minima aliquam repudiandae vero. Ab quae ipsam ex vero quisquam consequatur quasi quia.</p>
+                            </div>
+                            <hr>
+                            <div class="announcement-card">
+                                <p class="announcement-title">Updated Privacy Policy</p>
+                                <p class="announcement-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quod perferendis asperiores reiciendis, soluta quibusdam est ab aperiam nam molestiae. Expedita corporis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trending-section">
+                        <p class="section-title">Trending</p>
+                        <div class="aside-cards">
+                            
+                            <div class="trending-card">
+                                <img class="trending-logo" src="./assets/cat-8575768_640.png" alt="logo-cat">
+                                <div class="trending-content">
+                                    <p class="trending-title">@tegan</p>
+                                    <p class="trending-subtitle">World Peace Builder</p>
+                                </div>
+                            </div>
+                            <div class="trending-card">
+                                <img class="trending-logo" src="./assets/cat-8575768_640.png" alt="logo-cat">
+                                <div class="trending-content">
+                                    <p class="trending-title">@morgan</p>
+                                    <p class="trending-subtitle">Super Cool Project</p>
+                                </div>
+                            </div>
+                            <div class="trending-card">
+                                <img class="trending-logo" src="./assets/cat-8575768_640.png" alt="logo-cat">
+                                <div class="trending-content">
+                                    <p class="trending-title">@kendall</p>
+                                    <p class="trending-subtitle">Life Changing App</p>
+                                </div>
+                            </div>
+                            <div class="trending-card">
+                                <img class="trending-logo" src="./assets/cat-8575768_640.png" alt="logo-cat">
+                                <div class="trending-content">
+                                    <p class="trending-title">@alex</p>
+                                    <p class="trending-subtitle">No Traffic Maker</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/84baef0874.js" crossorigin="anonymous"></script>
+</body>
+</html>
